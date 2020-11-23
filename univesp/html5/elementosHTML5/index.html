@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos novos HTML5</title>
+</head>
+<body>
+    <p>elementos estruturais header, main, footer, article, section, aside, figure e figurecaption</p>
+    <h3><strong>======================================================>Elemento header </strong></h3>
+    <p>elemento header especifica o cabeçalho de uma página ou de uma seção criada pelos elementos section ou article exemplos:</p>
+    <article>
+        <header>
+            <h1>Olá, como vai?</h1>
+        </header>
+        <p>Gostei do artigo que escreveu, mas quero salientar que não reflete a opinião de toda a comunidade de desenvolvedores</p>
+        <p>Há muitas opções de linguagens e plataformas disponíveis e a escolha deve depender de um estudo de viabilidade.</p>
+    </article>
+    <header>
+        <h1>Games</h1>
+            <nav>
+                <ul>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="download.html">Download</a></li>
+                </ul>
+            </nav>        
+    </header>
+    <p>Neste Mês estçao sendo lançados 3 games de...</p>
+    <h3><strong>======================================================>Elemento Footer</strong></h3>
+    <p>Footer representa o rodapé para o elementa pai mais proximo como sextion ou article exemplo</p>
+    <article>
+        <header>
+            <h1>Parabéns!</h1>
+            <p>Quero elogiar a iniciativa de expor para o debate um assunto tão polêmico.</p>
+            <p>apesar de não concordar com todas as afimações, compartilho de sua opinião sobre o assunto.</p>
+        </header>
+        <footer>
+            <p>Postado por: Pedro Henrique</p>
+        </footer>
+    </article>
+    <h3><strong>======================================================>Elemento main.</strong></h3>
+    <p>representa um contêiner para o conteúdo principal de uma página. </p>
+    <p>Deve <em>haver apenas um elemento main</em>, não pode estar no interior dos elementos: article, aside, footer, header ou nav. <br>exemplo: </p>
+    <header>
+        the Lawson Academy:
+        <nav>
+            <ul>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="honorários.html">honorários</a></li>
+                <li><a href="">Graduação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main><h1>Graduação</h1>
+        <nav>
+            <ul>
+                <li><a href="#cerimonia">Ceremonia</a></li>
+                <li><a href="#graduados">Graduados</a></li>
+                <li><a href="#premios">Prêmios</a></li>
+            </ul>
+        </nav>
+        <h2 id="cerimonia">Cerimonia</h2>
+        <p>Abertura da cerimonia</p>
+        <p>Discurso da Valedictorian</p>
+        <p>Discurso do presidente da turma</p>
+        <p>Apresentação dos diplomas</p>
+        <p>Fechamento da cerimonia</p>
+        <h2 id="graduados"></h2>
+        <ul>
+            <li>Eileen Williams</li>
+            <li>Clara Faulkner</li>
+            <li>Andy Maseyk</li>
+        </ul>
+        <h2 id="premios"></h2>
+        <ul>
+            <li>Clara Faulkner</li>
+        </ul>        
+    </main>
+    <footer> Copyright 2012 B.lawson</footer>
+    <h3><strong>======================================================>elemento article</strong></h3>
+    <p>Representa um conteúdo independente em uma página.Elementos articles podem ser aninhados. <br>exemplo:</p>
+    <article>
+        <header>
+            <h1>--------comentário---------</h1>
+        </header>
+        <article>
+            <header>
+            <h1>Olá, como vai?</h1>
+            </header>
+            <p>Gostei do artigo que escreveu, entretanto gostaria de salientar que não reflete a opinição de toda a comunidade de desenvolvedores.</p>
+            <footer>
+                <p>Postado por: Ana Luiz</p>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h1>Parabéns</h1>
+            </header>
+            <p>quero elogiar a iniciativa de abrir para debate um assunto tão polêmico.</p>
+            <footer>
+                <p>Postado por: Pedro Henrique</p>
+            </footer>
+        </article>
+        <footer>
+            <p>-------------------------</p>
+        </footer>
+    </article>
+    <h3><strong>======================================================>Elemento section</strong></h3>
+    <p>reprsenta uma seção genérica de uma página ou aplicação, um agrupamento de conteúdo. <br>Não é um elemento para gerar layout como o elemento <em>div</em> <br>exemplo:</p>
+
+    <article>
+        <h1>Avaliação de interfaces</h1>
+        <h2>Uma proposta de processo de avaliação</h2>
+     <p>O sucesso ou fracasso de um site está diretamente relacionado ao design de sua interface. Seguindo esta premissa a interface de um website deve atender a requisitos como os de usabilidade, comunicabilidade, navegabilidade e acessibilidade.</p>
+     <section>
+         <h1>Introdução</h1>
+         <p>A interface de usuário é a parte de um sistema computacional com a qual uma pessoa entra em contrato de forma física, perceptiva ou ainda conceitual funcionando como o meio de interação com a aplicação.</p>
+     </section>
+     <section>
+         <h1>Objetivo</h1>
+         <p>O objetivo desse projeto é elaborar uma proposta de processo de avaliação da interface de websites institucionais que contemple os critérios de usabilidade, comunicabilidade, navegabilidade e acessibilidade.</p>
+     </section>
+    </article>
+    <H3><STROng>======================================================>ELEMENTO ASIDE</STROng></H3>
+    <p>seção de uma página para conteúdo periférico ao conteúdo do documento preincipal <br>exemplo</p>
+    <article>
+        <p>
+            A UML pe uma linguagem oficializada no final de 1997 que surgiu da iniciativa de um grupo de pesquisadores que, a partir da investigação de métodos reconhecidos mundialmente como os principais métodos orientados a objetos, definiram uma gramática e um conjunto de regras sintáticas para modelar projetos de softwares orientados a objeto.
+        </p>
+        <aside style="width:250px;float:right;margin-left: 10px; padding: 10px;border:solid #c0c0c0 1px">
+            <q>
+                A  UML é adequada para a modelagem de sistemas, cuja abrangência poderá incluir sistemas de informação corporativos(Booch et, al, 2009).
+            </q>
+        </aside>
+        <p>
+            Apesar de a UML ser especialmente utilizada no desenvolvimento de softwares orientados a objetos, ela é suficientemente expressiva para modelar sistemas que não sejam de software, como por exemplo, projetos de hardware.
+        </p>
+    </article>
+    <h3><strong>======================================================>elemento NAV</strong></h3>
+    <p>seção de uma página com links de navegação para outras páginas ou para partes da mesma página. <br>exemplos:</p>
+    <p>exemplo com lista</p>
+    <nav>
+        <ol>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contato.html">COMTATO</a></li>
+            <li><a href="https://www.uol.com.br">UOL</a></li>
+        </ol>
+    </nav>
+    <p>exemplo sem lista</p>
+    <nav>
+        <p><a href="index">index</a></p>
+        <p><a href="contato">contato</a></p>
+        <p><a href="uol">UOL</a></p>
+    </nav>
+    <h3><strong>======================================================>ELEMENTO FIGURE E FIGCAPTION</strong></h3>
+    <p>O elemento figure representa um conteúdo de fluxo autossuficiente e opcionalmente com legenda, como imagens, diagrams, fotos, código.</p>
+    <p>O elemento Figcaption é o primeiro elemento filho de figure, representa a legenda do coteudo figure </p>
+    <p>exemplo</p>
+    <p>Um dos melhores jogos no mundo é o Pokemom, sua primeira versão contia como pokemons iniciais o squartle, bulbassauro e charmander</p>
+    <figure style="float: right;margin-left: 10px;">
+    <figcaption>Pokemons Maneiros</figcaption><img  src="CoolPokemon (Personalizado).jpg" alt=""> </figure>
+    <p>Olhando para os pokemons o Blastoise é o melhor.</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+<body>
+    <form action="">
+        <p><label for="nome">
+            Nome: <input type="text" id="nome">
+        </label>
+    </p>
+    </form>
+    <form action="">
+        <p>
+            <label for="data">
+                Data: <input type="date" name="data" value="2020-01-08">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Telefone: <input type="tel" placeholder="(xx)xxx-xxx-xxx" pattern="“^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$”>">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                E-mail: <input type="email" >
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Site: <input type="url">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Nota: <input type="number" name="nota" min="0" max="10" step="0.5">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Volume: <input type="range" name="volume" min="0" max="10" step="2">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Tempo de entrega: <input type="time" min="10:00" max="18:00">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Hidden: <input type="hidden" name="formulario" value="contato">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Senha: <input type="password">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Arquivo: <input type="file">
+            </label>
+        </p>
+        <p>            
+            <input type="submit">
+            <input type="reset">
+            <input type="button" value="Validar">
+        </p>
+        <p>
+            <label for="">
+                <input type="image" src="univesp.jpg" width="200">
+            </label>
+        </p>
+        <fieldset>
+            <legend>Estado Civil:</legend>
+            <p>
+                <label for="">
+                    <input type="radio" name="est_civ" value="casado">
+                    Casado
+                </label>
+                </p>
+            <p>
+                <label for="">
+                    <input type="radio" name="est_civ" value="casado">
+                    Solteiro
+                </label></p>
+            <p>
+                <label for="">
+                    <input type="radio" name="est_civ" value="casado">
+                    Divorciado
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend> Produtos </legend>
+            <p>
+                <label for="">
+                    <input type="checkbox" name="computador" value="Computador"> Computador 
+                </label>
+            </p>
+            <p>
+                <label for="">
+                    <input type="checkbox" name="impressora" value="Impressora"> impressora 
+                </label>
+            </p>
+            <p>
+                <label for="">
+                    <input type="checkbox" name="monitor" value="Monitor">Monitor</label></p>
+        </fieldset>
+        <p>
+            <label for="">O que deseja pesquisar? <input type="search" name="pesquisa">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Cor: <input type="color" name="cor">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Escolha uma cor: <input id="cor" type="color" onchange="document.getElementById('cor_selecionada').value = document.getElementById('cor').value;"/>
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Cor Selecionada: <input id="cor_selecionada" type="text">
+            </label>
+        </p>
+        <P><!--precisa do JS para funcionar a função de alerta-->
+            <button type="button" oneclick="alert('Botão clicado.')"> Clique aqui                 
+            </button>        
+        <button type="submit">
+            Enviar 
+        </button>
+        <button type="reset"> Limpar
+        </button>
+        </P>
+    </form>
+    
+</body>
+</html>

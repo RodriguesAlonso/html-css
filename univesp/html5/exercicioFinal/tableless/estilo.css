@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+div#header, div#footer{
+    margin:0 auto;
+    width: 1000px;
+    height: 70px;
+    border:solid #cccccc 1px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* contêiner header*/
+
+div#header{
+    background: #fff url(img/banner.jpg);
+    
+}
+
+div#header ul{
+    text-align: right;
+    list-style-type: none;
+    padding-top: 40px;
+}
+div#header ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/* contêiner centro*/
+
+div#centro {
+    width: 1000px;
+    height: 800px;
+    margin:0 auto;
+    border-left: solid #cccccc 1px;
+    border-right: solid #cccccc 1px;
+}
+/* contêiner menu*/
+div#menu{
+    height: 800px;
+    width: 200px;
+    background-color: #fff;
+    float: left;
+}
+div#menu div.nav{
+    padding-bottom: 15px;
+}
+div#menu div.nav h4{
+    width: 100%;
+    background-color: darkgray;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div#menu div.nav ul{
+    padding-left: 10px;
+    padding-top: 7px;
+    list-style-type: none;    
+}
+div#menu div.nav ul li{
+    padding-left: 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* contêiner artigos*/
+
+div#artigos {
+    height: 800px;
+    width: 648px;
+    background-color: #fff;
+    float: left;
+    border-left: solid #cccccc 1px;
+}
+div#artigos div.article h2, div#artigos div.article a p{
+    font-family: tahoma;
+    text-align: left;
+}
+div#artigos div.article h2{
+    color: #0000ff;
+    font-size: 30px;
+    padding-left: 15px;
+}
+div#artigos div.article a{
+    color: #000;
+    text-decoration: none;
+}
+div#artigos div.article a:hover{
+    color: #cccccc;
+    text-decoration: underline;
+}
+div#artigos div.article a p{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+div#artigos div.article a p img{
+    width: 170px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+/* contêiner parceiros*/
+
+div#parceiros{
+    height: 800px;
+    width: 150px;
+    background-color: #fff;
+    float: left;
+}
+div#parceiros p img{
+    width: 150px;
+}
+/* contêiner footer*/
+div#footer{
+    clear: both;
+}
+div#footer address{
+    padding-top: 15px;
+}
